@@ -1,0 +1,26 @@
+.car-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Fixed 3 cards per row */
+  gap: 20px; /* Space between the cards */
+  justify-content: center; /* Centers the grid */
+  padding: 20px; /* Padding around the grid */
+}
+
+.car-card {
+  margin-top: 100px;
+  background: #f9f9f9; /* Background color for the card */
+  border: 1px solid #ddd; /* Border for the card */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 15px; /* Padding inside the card */
+  display: flex; /* Flexbox for card contents */
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; /* Center content horizontally */
+}
+
+.car-card img {
+  width: 300px; /* Fixed width for the image */
+  height: 200px; /* Fixed height for the image */
+  object-fit: cover; /* Ensures image covers the space */
+  border-radius: 8px; /* Rounded corners for the image */
+}

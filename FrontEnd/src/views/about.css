@@ -1,0 +1,122 @@
+/* General container and layout styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Main content sections */
+  .bg-zinc-50 {
+    background-color: #f8fafc; /* Light background for sections */
+  }
+  
+  .bg-zinc-600 {
+    background-color: #f4f4f4; /* Darker background for footer or highlights */
+  }
+  
+  .bg-zinc-800 {
+    background-color: #000000; /* Even darker background for gradients */
+  }
+  
+  .bg-gradient-to-r {
+    background: linear-gradient(to right, #ffffff, #fffefe); /* Gradient for hero sections */
+  }
+  
+  /* Buttons */
+  .bg-secondary {
+    background-color: #b6b9b8; /* Custom secondary color (green) */
+  }
+  
+  .text-secondary-foreground {
+    color: #ffffff; /* White text on secondary background */
+  }
+  
+  .bg-accent {
+    background-color: #020407; /* Accent color (blue) */
+  }
+  
+  .text-accent-foreground {
+    color: #ffffff; /* White text on accent background */
+  }
+  
+  /* Card components */
+  .bg-card {
+    background-color: #ffffff; /* White background for cards */
+  }
+  
+  .shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Medium shadow for card effect */
+  }
+  
+  .rounded-lg {
+    border-radius: 12px; /* Soft rounded corners */
+  }
+  
+  /* Typography */
+  .text-muted-foreground {
+    color: #000000; /* Muted text color */
+  }
+  
+  .text-primary-foreground {
+    color: #03060b; /* Primary color for highlighted text */
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .font-bold {
+    font-weight: 700;
+  }
+  
+  .text-lg {
+    font-size: 1.125rem; /* Large text */
+  }
+  
+  .text-xl {
+    font-size: 1.25rem; /* Extra large text */
+  }
+  
+  .text-2xl {
+    font-size: 1.5rem; /* 2x large text */
+  }
+  
+  .text-3xl {
+    font-size: 1.875rem; /* 3x large text */
+  }
+  
+  .text-4xl {
+    font-size: 2.25rem; /* 4x large text */
+  }
+  
+  .text-5xl {
+    font-size: 3rem; /* 5x large text */
+  }
+  
+  /* Hero section */
+  h1 {
+    font-size: 2.25rem;
+    line-height: 1.2;
+  }
+  
+  h2 {
+    font-size: 1.875rem;
+    line-height: 1.2;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+  
+  /* Button hover states */
+  button:hover {
+    opacity: 0.8; /* Slight opacity change on hover */
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Image styles */
+  img {
+    object-fit: cover; /* Ensures image covers the entire container */
+  }
+  

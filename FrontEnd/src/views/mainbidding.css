@@ -1,0 +1,147 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .bg-background {
+    background-color: #f7f7f7;
+  }
+  
+  .text-foreground {
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  header {
+    background-color: #000000; /* secondary color */
+    color: #000000; /* secondary-foreground color */
+    padding: 16px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Search inputs and button */
+  .search-input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+  }
+  
+  .search-input:focus {
+    border-color: #3b82f6; /* primary color */
+    outline: none;
+  }
+  
+  button {
+    background-color: #d6d8dd; /* primary color */
+    color: #0c0a0a; /* primary-foreground */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2563eb; /* primary hover */
+  }
+  
+  /* Featured auctions */
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  
+  @media (min-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  .bg-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .bg-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .text-card-foreground {
+    color: #333;
+  }
+  
+  .text-muted-foreground {
+    color: #777;
+  }
+  
+  img {
+    border-radius: 6px;
+    object-fit: cover;
+  }
+  
+  /* Place Bid button */
+  .bg-accent {
+    background-color: #000101;
+  }
+  
+  .text-accent-foreground {
+    color: #fff;
+  }
+  
+  .bg-accent:hover {
+    background-color: #96053a;
+  }
+  
+  /* Auction Schedule */
+  ul {
+    list-style-type: disc;
+  }
+  
+  ul li {
+    margin-left: 16px;
+  }
+  
+  /* Registration button */
+  .text-center button {
+    background-color: #10211c;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+  }
+  
+  .text-center button:hover {
+    background-color: #960522;
+  }
+  
+  /* Auction details */
+  .mt-12 {
+    margin-top: 3rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
